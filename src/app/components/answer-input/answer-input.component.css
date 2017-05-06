@@ -1,0 +1,54 @@
+@font-face {
+	font-family: 'Lane'; 
+	src: url('/assets/fonts/LANENAR_.ttf'); 
+}
+
+
+
+
+.input-wrapper{
+    top:64px;
+    position:relative;
+    margin-left:10%;
+}
+
+form>div{
+    display: inline-block;
+}
+input{
+    height:50px;
+    width:60px;
+    background-color: white;
+    margin-left: 15px;
+    font-size:50px;
+    font-family:'Lane';
+    display:inline-block;
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px) { 
+    .answer-input{
+    height:400px;
+    width:45%;
+    display:inline-block;
+   /* border:10px solid black;*/
+
+}
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) { }
+
+@media all and (min-width: 480px) and (max-width: 768px) { }
+
+@media all and (max-width: 480px) { .answer-input{
+    height:200px;
+    width:100%;
+    display:inline-block;
+   /* border:10px solid black;*/
+
+}}
+
+
+/* Portrait */
+@media screen and (orientation:portrait) { /* Portrait styles here */ }
+/* Landscape */
+@media screen and (orientation:landscape) { /* Landscape styles here */ }
