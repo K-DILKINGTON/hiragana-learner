@@ -11,6 +11,9 @@ var RomanjiWord = require("./models/RomanjiWord");
 const app =express();
 
 app.use(express.static(path.join(__dirname, 'dist')));
+app.get('/game', function(req, res){
+  res.sendFile(__dirname + '/dist/index.html');
+});
 
 /*Grabbing a document at random from the database*/
 app.get("/api/wordatrandom",function(req,res){

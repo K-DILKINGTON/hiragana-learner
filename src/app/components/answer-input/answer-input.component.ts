@@ -36,7 +36,7 @@ answer:string[];
 
   onKeyUp(string,char,index){
     if(string===char.value){
-      $("#" + char.id).css("background","green");
+      $("#" + char.id).css("background","lightgreen");
       $("#answer-input_" + (index + 2).toString()).focus();
       this.answer[index] = string;
       if(this.answer.join("")===this.word.romanji){

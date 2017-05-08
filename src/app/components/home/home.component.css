@@ -1,0 +1,28 @@
+:host{
+    background-image: url("/assets/images/Japanese-Transparent-Background.png");
+    width:100%;
+    height:500px;
+    display:block;
+    background-size:cover;
+    background-position: center;
+}
+
+.welcome-blurb{
+    display:block;
+    width:50%;
+    background:#e8e8d0;
+    font-family:'Lane';
+    padding:1rem;
+    border-radius:30px;
+    margin:1rem;
+}
+
+button{
+    border:none;
+    background:#EC3923;
+    width:6rem;
+    height:3rem;
+    font-size:1.5rem;
+    border-radius:10px;
+    cursor:pointer;
+}

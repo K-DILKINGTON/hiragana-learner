@@ -2,7 +2,13 @@
   <div class = "dictionary-inner">
     <span class = "jumbo-word">{{joinedWord}}</span>
   </div>
-  <div class = "dictionary-definition">{{word&&word.definition}}
-    <button (click)="getWord()">Click</button>
+  
+  <div style = "position:relative;
+    margin-left:5%;
+    margin-right:5%;
+    font-family:'Lane';
+    top:70px;
+    font-size:21px;
+    color: black;"><span >{{word&&word.definition}}</span>
   </div>
 </div>

@@ -14,7 +14,7 @@ export class GetWordService {
   currentWord:Word;
   changeWordEmitter:EventEmitter<string> = new EventEmitter();
 getWord():Promise<Word>{
-return this.http.get('/api/wordatrandom')
+return this.http.get('../api/wordatrandom')
  .map((res) => {
         this.currentWord = res.json();
         this.convertToHiragana(this.currentWord.romanji);

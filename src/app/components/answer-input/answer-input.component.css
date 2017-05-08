@@ -1,15 +1,24 @@
-@font-face {
-	font-family: 'Lane'; 
-	src: url('/assets/fonts/LANENAR_.ttf'); 
-}
+
 
 
 
 
 .input-wrapper{
-    top:64px;
-    position:relative;
-    margin-left:10%;
+    
+    margin-left:2rem;
+    margin-right:2rem;
+    background:#e8e8d0;
+    border-radius:15px;
+    padding:15px;
+    padding-top:30px;
+    padding-bottom:30px;
+
+}
+
+h1{
+    margin-left:1.5rem;
+    font-family:'Lane';
+    font-weight:100;
 }
 
 form>div{
@@ -19,15 +28,15 @@ input{
     height:50px;
     width:60px;
     background-color: white;
-    margin-left: 15px;
+    margin-left: 5px;
     font-size:50px;
     font-family:'Lane';
     display:inline-block;
+    border:none;
 }
 
 @media all and (min-width: 1024px) and (max-width: 1280px) { 
     .answer-input{
-    height:400px;
     width:45%;
     display:inline-block;
    /* border:10px solid black;*/

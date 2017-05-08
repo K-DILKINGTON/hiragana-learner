@@ -1,3 +1,9 @@
 html{
 	background:beige;
 }
+
+@font-face {
+	font-family: 'Lane'; 
+	src: url('/assets/fonts/LANENAR_.ttf'); 
+}
+

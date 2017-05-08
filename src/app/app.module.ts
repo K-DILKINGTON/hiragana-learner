@@ -14,7 +14,8 @@ import {GetWordService} from 'app/services/get-word.service';
 import { CustomInputComponent } from './components/custom-input/custom-input.component';
 import { AutofocusDirective } from './directives/autofocus.directive';
 import { HiraganaGameComponent } from './components/hiragana-game/hiragana-game.component';
-import { HomeComponent } from './components/home/home.component'
+import { HomeComponent } from './components/home/home.component';
+import { HintComponent } from './components/hint/hint.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { HomeComponent } from './components/home/home.component'
     CustomInputComponent,
     AutofocusDirective,
     HiraganaGameComponent,
-    HomeComponent
+    HomeComponent,
+    HintComponent
   ],
   imports: [
     BrowserModule,

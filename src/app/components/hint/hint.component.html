@@ -1,0 +1,5 @@
+<div class = " hint-container"  >
+  <div (click) = "makeVisible(i)" *ngFor = "let char of romanjiArr;let i = index" class = "hint-block">{{hiragana[i].value}}
+    <div *ngIf ="visible(i)" class = "answer-overlay">{{romanjiArr[i].value}}</div>
+  </div>
+</div>

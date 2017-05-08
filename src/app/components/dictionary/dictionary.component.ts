@@ -13,6 +13,7 @@ export class DictionaryComponent implements OnInit {
   wordLength:number;
   subscription:any;
   joinedWord:string;
+  definition:string;
 
  
 
@@ -24,13 +25,14 @@ export class DictionaryComponent implements OnInit {
     this.getWordService.emitChangeWordEvent("slap");
   }
 
-    getWord(): void {
+    startGame(): void {
     var that = this;
     this.subscription = this.getWordService.getChangedWordEmitter()
     .subscribe(function(){that.word = that.getWordService.getCurrentWord();
     that.joinWord(that.word.hiragana)});
     this.getWordService.getWord().then(function(){that.word = that.getWordService.getCurrentWord();
-    that.emitServiceEvent()}).then(c => that.joinWord(that.word.hiragana));
+    that.emitServiceEvent()}).then(c => {that.joinWord(that.word.hiragana);
+  });
     
 
 
@@ -46,7 +48,7 @@ export class DictionaryComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.getWord();
+    this.startGame();
   }
 
 }

@@ -1,0 +1,36 @@
+:host{
+    display:block;
+    margin-top:1rem;
+    
+}
+
+.hint-block{
+    height:100%;
+    display: inline-block;
+    border-left:1px solid black;
+    font-size:50px;
+    background-color:white;
+    padding-left:5px;
+    padding-right:5px;
+    margin-left:5px;
+    position:relative;
+    cursor:pointer;
+
+}
+
+.answer-overlay{
+    background:white;
+    display:block;
+    position:absolute;
+    width:inherit;
+    height:inherit;
+    vertical-align: top;
+    top:0;
+    width:80%;
+    height:80%;
+    font-family:'Lane';
+}
+
+.hint-container>div{
+    display:inline-block;
+}

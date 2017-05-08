@@ -1,13 +1,10 @@
-@font-face {
-	font-family: 'Lane'; 
-	src: url('/assets/fonts/LANENAR_.ttf'); 
-}
+
 
 .dictionary{
     height:400px;
     width:45%;
     display:inline-block;
-    border-left:10px solid black;
+    border-left:6px solid #808080;
     vertical-align: top;
 }
 
@@ -26,6 +23,7 @@
     font-family:'Lane';
     top:70px;
     font-size:21px;
+    
 }
 .jumbo-word{
     font-size:40px;
@@ -38,7 +36,7 @@
     height:400px;
     width:45%;
     display:inline-block;
-    border-left:10px solid black;
+    border-left:6px solid gray;
     vertical-align: top;
 }}
 
