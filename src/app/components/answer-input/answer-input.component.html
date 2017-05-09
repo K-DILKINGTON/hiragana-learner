@@ -1,12 +1,13 @@
 <div class = "answer-input">
-<h1>Type Answer:</h1>
 <div class = "input-wrapper">
+  <h1>Type Answer:</h1>
   <form #form="ngForm">
     <div  *ngFor = "let char of romanjiArr;let i = index">
       <input id = "{{'answer-input_' + (i+1).toString()}}" (keyup) = "onKeyUp(char.value,$event.target,i)" ng-disabled="isComplete()" name = char myAutoFocusspastic>
     </div>
 
   </form>
+  <h1>Clues:</h1>
   <hint></hint>
 </div>
   
