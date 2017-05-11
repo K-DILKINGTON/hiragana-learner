@@ -1,6 +1,6 @@
 webpackJsonp([1,4],{
 
-/***/ 135:
+/***/ 136:
 /***/ (function(module, exports) {
 
 function webpackEmptyContext(req) {
@@ -9,20 +9,20 @@ function webpackEmptyContext(req) {
 webpackEmptyContext.keys = function() { return []; };
 webpackEmptyContext.resolve = webpackEmptyContext;
 module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 135;
+webpackEmptyContext.id = 136;
 
 
 /***/ }),
 
-/***/ 136:
+/***/ 137:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(141);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app_module__ = __webpack_require__(144);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(152);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(142);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app_module__ = __webpack_require__(145);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(153);
 
 
 
@@ -35,7 +35,7 @@ __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dyna
 
 /***/ }),
 
-/***/ 143:
+/***/ 144:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -57,8 +57,8 @@ var AppComponent = (function () {
 AppComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'app-root',
-        template: __webpack_require__(215),
-        styles: [__webpack_require__(206)]
+        template: __webpack_require__(216),
+        styles: [__webpack_require__(207)]
     })
 ], AppComponent);
 
@@ -66,26 +66,26 @@ AppComponent = __decorate([
 
 /***/ }),
 
-/***/ 144:
+/***/ 145:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(28);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(140);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(141);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(84);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_router__ = __webpack_require__(142);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_routes__ = __webpack_require__(145);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_component__ = __webpack_require__(143);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_navbar_navbar_component__ = __webpack_require__(150);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_answer_input_answer_input_component__ = __webpack_require__(146);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_dictionary_dictionary_component__ = __webpack_require__(148);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_app_services_get_word_service__ = __webpack_require__(41);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_custom_input_custom_input_component__ = __webpack_require__(147);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__directives_autofocus_directive__ = __webpack_require__(151);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_router__ = __webpack_require__(143);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_routes__ = __webpack_require__(146);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_component__ = __webpack_require__(144);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_navbar_navbar_component__ = __webpack_require__(151);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_answer_input_answer_input_component__ = __webpack_require__(147);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_dictionary_dictionary_component__ = __webpack_require__(149);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_app_services_get_word_service__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_custom_input_custom_input_component__ = __webpack_require__(148);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__directives_autofocus_directive__ = __webpack_require__(152);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_hiragana_game_hiragana_game_component__ = __webpack_require__(85);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__components_home_home_component__ = __webpack_require__(86);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__components_hint_hint_component__ = __webpack_require__(149);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__components_hint_hint_component__ = __webpack_require__(150);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -142,7 +142,7 @@ AppModule = __decorate([
 
 /***/ }),
 
-/***/ 145:
+/***/ 146:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -159,12 +159,12 @@ var routes = [
 
 /***/ }),
 
-/***/ 146:
+/***/ 147:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_app_services_get_word_service__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_app_services_get_word_service__ = __webpack_require__(42);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AnswerInputComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -227,8 +227,8 @@ __decorate([
 AnswerInputComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'answer-input',
-        template: __webpack_require__(216),
-        styles: [__webpack_require__(207)]
+        template: __webpack_require__(217),
+        styles: [__webpack_require__(208)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_app_services_get_word_service__["a" /* GetWordService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_app_services_get_word_service__["a" /* GetWordService */]) === "function" && _a || Object])
 ], AnswerInputComponent);
@@ -238,7 +238,7 @@ var _a;
 
 /***/ }),
 
-/***/ 147:
+/***/ 148:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -264,8 +264,8 @@ var CustomInputComponent = (function () {
 CustomInputComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'app-custom-input',
-        template: __webpack_require__(217),
-        styles: [__webpack_require__(208)]
+        template: __webpack_require__(218),
+        styles: [__webpack_require__(209)]
     }),
     __metadata("design:paramtypes", [])
 ], CustomInputComponent);
@@ -274,12 +274,12 @@ CustomInputComponent = __decorate([
 
 /***/ }),
 
-/***/ 148:
+/***/ 149:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_app_services_get_word_service__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_app_services_get_word_service__ = __webpack_require__(42);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DictionaryComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -328,8 +328,8 @@ var DictionaryComponent = (function () {
 DictionaryComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'dictionary',
-        template: __webpack_require__(218),
-        styles: [__webpack_require__(209)]
+        template: __webpack_require__(219),
+        styles: [__webpack_require__(210)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_app_services_get_word_service__["a" /* GetWordService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_app_services_get_word_service__["a" /* GetWordService */]) === "function" && _a || Object])
 ], DictionaryComponent);
@@ -339,12 +339,12 @@ var _a;
 
 /***/ }),
 
-/***/ 149:
+/***/ 150:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_app_services_get_word_service__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_app_services_get_word_service__ = __webpack_require__(42);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HintComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -388,8 +388,8 @@ var HintComponent = (function () {
 HintComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'hint',
-        template: __webpack_require__(219),
-        styles: [__webpack_require__(210)]
+        template: __webpack_require__(220),
+        styles: [__webpack_require__(211)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_app_services_get_word_service__["a" /* GetWordService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_app_services_get_word_service__["a" /* GetWordService */]) === "function" && _a || Object])
 ], HintComponent);
@@ -399,7 +399,7 @@ var _a;
 
 /***/ }),
 
-/***/ 150:
+/***/ 151:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -425,8 +425,8 @@ var NavbarComponent = (function () {
 NavbarComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'navbar',
-        template: __webpack_require__(222),
-        styles: [__webpack_require__(213)]
+        template: __webpack_require__(223),
+        styles: [__webpack_require__(214)]
     }),
     __metadata("design:paramtypes", [])
 ], NavbarComponent);
@@ -435,7 +435,7 @@ NavbarComponent = __decorate([
 
 /***/ }),
 
-/***/ 151:
+/***/ 152:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -473,7 +473,7 @@ var _a;
 
 /***/ }),
 
-/***/ 152:
+/***/ 153:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -490,10 +490,10 @@ var environment = {
 
 /***/ }),
 
-/***/ 206:
+/***/ 207:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(16)();
+exports = module.exports = __webpack_require__(16)(false);
 // imports
 
 
@@ -508,15 +508,15 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 207:
+/***/ 208:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(16)();
+exports = module.exports = __webpack_require__(16)(false);
 // imports
 
 
 // module
-exports.push([module.i, "\r\n\r\n\r\n\r\n\r\n.input-wrapper{\r\n    \r\n    margin-left: 2rem;\r\n    margin-right: 2rem;\r\n    margin-top:2rem;\r\n    background: #e8e8d0;\r\n    border-radius: 15px;\r\n    padding: 1rem;\r\n    padding-top: 1rem;\r\n    padding-bottom: 2rem;\r\n}\r\n\r\nh1{\r\n    margin-left: 1.8rem;\r\n    font-family: 'Lane';\r\n    font-weight: 100;\r\n    margin-bottom: .5rem;\r\n    margin-top:0rem;\r\n}\r\n\r\n.input-wrapper>h1{\r\n    margin-left:0rem;\r\n}\r\n\r\nform>div{\r\n    display: inline-block;\r\n}\r\ninput{\r\n    height: 3.1rem;\r\n    width: 3.3rem;\r\n    background-color: white;\r\n    margin-left: 5px;\r\n    font-size:50px;\r\n    font-family:'Lane';\r\n    display:inline-block;\r\n    border:none;\r\n}\r\n\r\n@media all and (min-width: 1024px) and (max-width: 1280px) { \r\n    .answer-input{\r\n    width:45%;\r\n    display:inline-block;\r\n   /* border:10px solid black;*/\r\n\r\n}\r\n}\r\n\r\n@media all and (min-width: 768px) and (max-width: 1024px) { }\r\n\r\n@media all and (min-width: 480px) and (max-width: 768px) { }\r\n\r\n@media all and (max-width: 480px) { .answer-input{\r\n    height:200px;\r\n    width:100%;\r\n    display:inline-block;\r\n   /* border:10px solid black;*/\r\n\r\n}}\r\n\r\n\r\n/* Portrait */\r\n@media screen and (orientation:portrait) { /* Portrait styles here */ }\r\n/* Landscape */\r\n@media screen and (orientation:landscape) { /* Landscape styles here */ }", ""]);
+exports.push([module.i, "\r\n\r\n\r\n\r\n\r\n.input-wrapper{\r\n    \r\n    margin-left: 2rem;\r\n    margin-right: 2rem;\r\n    margin-top:2rem;\r\n    background: #e8e8d0;\r\n    border-radius: 15px;\r\n    padding: 1rem;\r\n    padding-top: 1rem;\r\n    padding-bottom: 2rem;\r\n}\r\n\r\nh1{\r\n    margin-left: 1.8rem;\r\n    font-family: 'Lane';\r\n    font-weight: 100;\r\n    margin-bottom: .5rem;\r\n    margin-top:0rem;\r\n}\r\n\r\n.input-wrapper>h1{\r\n    margin-left:0rem;\r\n}\r\n\r\nform>div{\r\n    display: inline-block;\r\n}\r\ninput{\r\n    height: 3.1rem;\r\n    width: 3.3rem;\r\n    background-color: white;\r\n    margin-left: 5px;\r\n    font-size:50px;\r\n    font-family:'Lane';\r\n    display:inline-block;\r\n    border:none;\r\n}\r\n\r\n.answer-input{\r\n    width:45%;\r\n    display:inline-block;\r\n   /* border:10px solid black;*/\r\n\r\n}\r\n\r\n", ""]);
 
 // exports
 
@@ -526,10 +526,10 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 208:
+/***/ 209:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(16)();
+exports = module.exports = __webpack_require__(16)(false);
 // imports
 
 
@@ -544,15 +544,15 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 209:
+/***/ 210:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(16)();
+exports = module.exports = __webpack_require__(16)(false);
 // imports
 
 
 // module
-exports.push([module.i, "\r\n\r\n.dictionary{\r\n    height:400px;\r\n    width:45%;\r\n    display:inline-block;\r\n    border-left:6px solid #808080;\r\n    vertical-align: top;\r\n}\r\n\r\n.dictionary-inner{\r\n    position:relative;\r\n    top:60px;\r\n    margin-left:5%;\r\n    margin-right:5%;\r\n    border-bottom:solid 2px gray;\r\n}\r\n\r\n.dictionary-definition{\r\n    position:relative;\r\n    margin-left:5%;\r\n    margin-right:5%;\r\n    font-family:'Lane';\r\n    top:70px;\r\n    font-size:21px;\r\n    \r\n}\r\n.jumbo-word{\r\n    font-size:40px;\r\n    position:relative;\r\n    width:80%;\r\n    font-weight: 100;\r\n}\r\n\r\n@media all and (min-width: 1024px) and (max-width: 1280px) { .dictionary{\r\n    height:400px;\r\n    width:45%;\r\n    display:inline-block;\r\n    border-left:6px solid gray;\r\n    vertical-align: top;\r\n}}\r\n\r\n@media all and (min-width: 768px) and (max-width: 1024px) { }\r\n\r\n@media all and (min-width: 480px) and (max-width: 768px) { }\r\n\r\n@media all and (max-width: 480px) {.dictionary{\r\n    height:200px;\r\n    width:100%;\r\n    display:inline-block;\r\n    border-left:10px solid black;\r\n    vertical-align: top;\r\n} }\r\n\r\n\r\n/* Portrait */\r\n@media screen and (orientation:portrait) { /* Portrait styles here */ }\r\n/* Landscape */\r\n@media screen and (orientation:landscape) { /* Landscape styles here */ }", ""]);
+exports.push([module.i, "\r\n\r\n.dictionary{\r\n    height:400px;\r\n    width:45%;\r\n    display:inline-block;\r\n    border-left:6px solid #808080;\r\n    vertical-align: top;\r\n}\r\n\r\n.dictionary-inner{\r\n    position:relative;\r\n    top:60px;\r\n    margin-left:5%;\r\n    margin-right:5%;\r\n    border-bottom:solid 2px gray;\r\n}\r\n\r\n.dictionary-definition{\r\n    position:relative;\r\n    margin-left:5%;\r\n    margin-right:5%;\r\n    font-family:'Lane';\r\n    top:70px;\r\n    font-size:21px;\r\n    \r\n}\r\n.jumbo-word{\r\n    font-size:40px;\r\n    position:relative;\r\n    width:80%;\r\n    font-weight: 100;\r\n}\r\n", ""]);
 
 // exports
 
@@ -562,10 +562,10 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 210:
+/***/ 211:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(16)();
+exports = module.exports = __webpack_require__(16)(false);
 // imports
 
 
@@ -580,10 +580,10 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 211:
+/***/ 212:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(16)();
+exports = module.exports = __webpack_require__(16)(false);
 // imports
 
 
@@ -598,10 +598,10 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 212:
+/***/ 213:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(16)();
+exports = module.exports = __webpack_require__(16)(false);
 // imports
 
 
@@ -616,10 +616,10 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 213:
+/***/ 214:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(16)();
+exports = module.exports = __webpack_require__(16)(false);
 // imports
 
 
@@ -634,69 +634,69 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 215:
-/***/ (function(module, exports) {
-
-module.exports = "<navbar>\n\n</navbar>\n\n<router-outlet></router-outlet>\n"
-
-/***/ }),
-
 /***/ 216:
 /***/ (function(module, exports) {
 
-module.exports = "<div class = \"answer-input\">\n<div class = \"input-wrapper\">\n  <h1>Type Answer:</h1>\n  <form #form=\"ngForm\">\n    <div  *ngFor = \"let char of romanjiArr;let i = index\">\n      <input id = \"{{'answer-input_' + (i+1).toString()}}\" (keyup) = \"onKeyUp(char.value,$event.target,i)\" ng-disabled=\"isComplete()\" name = char myAutoFocusspastic>\n    </div>\n\n  </form>\n  <h1>Clues:</h1>\n  <hint></hint>\n</div>\n  \n</div>\n"
+module.exports = "<navbar>\r\n\r\n</navbar>\r\n\r\n<router-outlet></router-outlet>\r\n"
 
 /***/ }),
 
 /***/ 217:
 /***/ (function(module, exports) {
 
-module.exports = "<input #cust>"
+module.exports = "<div class = \"answer-input\">\r\n<div class = \"input-wrapper\">\r\n  <h1>Type Answer:</h1>\r\n  <form #form=\"ngForm\">\r\n    <div  *ngFor = \"let char of romanjiArr;let i = index\">\r\n      <input id = \"{{'answer-input_' + (i+1).toString()}}\" (keyup) = \"onKeyUp(char.value,$event.target,i)\" ng-disabled=\"isComplete()\" name = char myAutoFocusspastic>\r\n    </div>\r\n\r\n  </form>\r\n  <h1>Clues:</h1>\r\n  <hint></hint>\r\n</div>\r\n  \r\n</div>\r\n"
 
 /***/ }),
 
 /***/ 218:
 /***/ (function(module, exports) {
 
-module.exports = "<div class = \"dictionary\">\n  <div class = \"dictionary-inner\">\n    <span class = \"jumbo-word\">{{joinedWord}}</span>\n  </div>\n  \n  <div style = \"position:relative;\n    margin-left:5%;\n    margin-right:5%;\n    font-family:'Lane';\n    top:70px;\n    font-size:21px;\n    color: black;\"><span >{{word&&word.definition}}</span>\n  </div>\n</div>"
+module.exports = "<input #cust>"
 
 /***/ }),
 
 /***/ 219:
 /***/ (function(module, exports) {
 
-module.exports = "<div class = \" hint-container\"  >\n  <div (click) = \"makeVisible(i)\" *ngFor = \"let char of romanjiArr;let i = index\" class = \"hint-block\">{{hiragana[i].value}}\n    <div *ngIf =\"visible(i)\" class = \"answer-overlay\">{{romanjiArr[i].value}}</div>\n  </div>\n</div>"
+module.exports = "<div class = \"dictionary\">\r\n  <div class = \"dictionary-inner\">\r\n    <span class = \"jumbo-word\">{{joinedWord}}</span>\r\n  </div>\r\n  \r\n  <div style = \"position:relative;\r\n    margin-left:5%;\r\n    margin-right:5%;\r\n    font-family:'Lane';\r\n    top:70px;\r\n    font-size:21px;\r\n    color: black;\"><span >{{word&&word.definition}}</span>\r\n  </div>\r\n</div>"
 
 /***/ }),
 
 /***/ 220:
 /***/ (function(module, exports) {
 
-module.exports = "<answer-input></answer-input><dictionary></dictionary>\n"
+module.exports = "<div class = \" hint-container\"  >\r\n  <div (click) = \"makeVisible(i)\" *ngFor = \"let char of romanjiArr;let i = index\" class = \"hint-block\">{{hiragana[i].value}}\r\n    <div *ngIf =\"visible(i)\" class = \"answer-overlay\">{{romanjiArr[i].value}}</div>\r\n  </div>\r\n</div>"
 
 /***/ }),
 
 /***/ 221:
 /***/ (function(module, exports) {
 
-module.exports = "<div class = \"welcome-blurb\">\n<h1>Welcome to KA-MI</h1>\n  <h2>The simple Hiragana trainer. Just click the button below to begin,\n    and start typing out the word you see on the right hand side. Don't know the answer?\n    No problem, simply click one of the hints to reveal portions of the answer until you're confident you've figured it out. </h2>\n<button [routerLink]=\"['./game']\" routerLinkActive=\"active\">BEGIN</button>\n</div>"
+module.exports = "<answer-input></answer-input><dictionary></dictionary>\r\n"
 
 /***/ }),
 
 /***/ 222:
 /***/ (function(module, exports) {
 
-module.exports = "<div class = site-header>\n  <div [routerLink]=\"['./']\" routerLinkActive=\"active\" class = \"site-logo\">神 KA-MI</div>\n</div>"
+module.exports = "<div class = \"welcome-blurb\">\r\n<h1>Welcome to KA-MI</h1>\r\n  <h2>The simple Hiragana trainer. Just click the button below to begin,\r\n    and start typing out the word you see on the right hand side. Don't know the answer?\r\n    No problem, simply click one of the hints to reveal portions of the answer until you're confident you've figured it out. </h2>\r\n<button [routerLink]=\"['./game']\" routerLinkActive=\"active\">BEGIN</button>\r\n</div>"
 
 /***/ }),
 
-/***/ 41:
+/***/ 223:
+/***/ (function(module, exports) {
+
+module.exports = "<div class = site-header>\r\n  <div [routerLink]=\"['./']\" routerLinkActive=\"active\" class = \"site-logo\">神 KA-MI</div>\r\n</div>"
+
+/***/ }),
+
+/***/ 42:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(84);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Rx__ = __webpack_require__(224);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Rx__ = __webpack_require__(225);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Rx__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GetWordService; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -888,10 +888,10 @@ var _a;
 
 /***/ }),
 
-/***/ 488:
+/***/ 493:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(136);
+module.exports = __webpack_require__(137);
 
 
 /***/ }),
@@ -922,8 +922,8 @@ var HiraganaGameComponent = (function () {
 HiraganaGameComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'hiragana-game',
-        template: __webpack_require__(220),
-        styles: [__webpack_require__(211)]
+        template: __webpack_require__(221),
+        styles: [__webpack_require__(212)]
     }),
     __metadata("design:paramtypes", [])
 ], HiraganaGameComponent);
@@ -958,8 +958,8 @@ var HomeComponent = (function () {
 HomeComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'app-home',
-        template: __webpack_require__(221),
-        styles: [__webpack_require__(212)]
+        template: __webpack_require__(222),
+        styles: [__webpack_require__(213)]
     }),
     __metadata("design:paramtypes", [])
 ], HomeComponent);
@@ -968,5 +968,5 @@ HomeComponent = __decorate([
 
 /***/ })
 
-},[488]);
+},[493]);
 //# sourceMappingURL=main.bundle.js.map

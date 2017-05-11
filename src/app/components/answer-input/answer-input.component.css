@@ -41,29 +41,10 @@ input{
     border:none;
 }
 
-@media all and (min-width: 1024px) and (max-width: 1280px) { 
-    .answer-input{
+.answer-input{
     width:45%;
     display:inline-block;
    /* border:10px solid black;*/
 
 }
-}
 
-@media all and (min-width: 768px) and (max-width: 1024px) { }
-
-@media all and (min-width: 480px) and (max-width: 768px) { }
-
-@media all and (max-width: 480px) { .answer-input{
-    height:200px;
-    width:100%;
-    display:inline-block;
-   /* border:10px solid black;*/
-
-}}
-
-
-/* Portrait */
-@media screen and (orientation:portrait) { /* Portrait styles here */ }
-/* Landscape */
-@media screen and (orientation:landscape) { /* Landscape styles here */ }
