@@ -498,7 +498,7 @@ exports = module.exports = __webpack_require__(16)(false);
 
 
 // module
-exports.push([module.i, "html{\r\n\tbackground:beige;\r\n}\r\n\r\n@font-face {\r\n\tfont-family: 'Lane'; \r\n\tsrc: url('/assets/fonts/LANENAR_.ttf'); \r\n}\r\n\r\n", ""]);
+exports.push([module.i, "html, body {\r\n   height: 100%;\r\n   width: 100%;\r\n   margin: 0;\r\n   padding: 0;\r\n   background:beige;\r\n}\r\n@font-face {\r\n\tfont-family: 'Lane'; \r\n\tsrc: url('/assets/fonts/LANENAR_.ttf'); \r\n}\r\n\r\n", ""]);
 
 // exports
 
@@ -606,7 +606,7 @@ exports = module.exports = __webpack_require__(16)(false);
 
 
 // module
-exports.push([module.i, ":host{\r\n    background-image: url(\"/assets/images/Japanese-Transparent-Background.png\");\r\n    width:100%;\r\n    height:500px;\r\n    display:block;\r\n    background-size:cover;\r\n    background-position: center;\r\n}\r\n\r\n.welcome-blurb{\r\n    display:block;\r\n    width:50%;\r\n    background:#e8e8d0;\r\n    font-family:'Lane';\r\n    padding:1rem;\r\n    border-radius:30px;\r\n    margin:1rem;\r\n}\r\n\r\nbutton{\r\n    border:none;\r\n    background:#EC3923;\r\n    width:6rem;\r\n    height:3rem;\r\n    font-size:1.5rem;\r\n    border-radius:10px;\r\n    cursor:pointer;\r\n}", ""]);
+exports.push([module.i, ":host{\r\n    background-image: url(\"/assets/images/Japanese-Transparent-Background.png\");\r\n    width:100%;\r\n    height:100%;\r\n    display:block;\r\n    background-size:cover;\r\n    background-position: center;\r\n}\r\n\r\n.welcome-blurb{\r\n    display:block;\r\n    width:50%;\r\n    background:#e8e8d0;\r\n    font-family:'Lane';\r\n    padding:1rem;\r\n    border-radius:30px;\r\n    margin:1rem;\r\n}\r\n\r\nbutton{\r\n    border:none;\r\n    background:#EC3923;\r\n    width:6rem;\r\n    height:3rem;\r\n    font-size:1.5rem;\r\n    border-radius:10px;\r\n    cursor:pointer;\r\n}", ""]);
 
 // exports
 

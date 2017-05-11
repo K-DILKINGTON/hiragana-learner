@@ -1,7 +1,10 @@
-html{
-	background:beige;
+html, body {
+   height: 100%;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   background:beige;
 }
-
 @font-face {
 	font-family: 'Lane'; 
 	src: url('/assets/fonts/LANENAR_.ttf'); 
