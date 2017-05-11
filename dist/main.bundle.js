@@ -588,7 +588,7 @@ exports = module.exports = __webpack_require__(16)(false);
 
 
 // module
-exports.push([module.i, "", ""]);
+exports.push([module.i, ":host{\r\n    background-image: url(\"/assets/images/Japanese-Transparent-Background.png\");\r\n    width:100%;\r\n    height:100%;\r\n    display:block;\r\n    background-size:cover;\r\n    background-position: center;\r\n}", ""]);
 
 // exports
 
